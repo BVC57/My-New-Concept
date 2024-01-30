@@ -1,0 +1,35 @@
+/* ReelsFeed.css */
+
+.reels-feed {
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reels-video {
+    position: relative;
+  }
+  
+  .reels-video .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .reels-description {
+    padding: 16px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+  }
+  
+  .reels-description p {
+    margin: 0;
+    font-weight: bold;
+  }
+  

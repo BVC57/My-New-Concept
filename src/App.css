@@ -1,0 +1,41 @@
+/* styles.css */
+
+.navbar {
+  background-color: #f8f9fa; /* Light gray background color */
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center; /* Align items to the right */
+}
+
+.nav-item {
+  margin: 0 10px; /* Adjust spacing between navigation items */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff; /* Blue color for links */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+
+  /* Optional: Add a bottom border on hover */
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Darker blue color on hover */
+
+  /* Optional: Adjust border color on hover */
+  border-bottom-color: #0056b3;
+}
+
+.lbtn{
+  background-color: aqua;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}

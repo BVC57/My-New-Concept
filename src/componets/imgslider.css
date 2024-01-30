@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Import carousel styles */
+@import "~react-responsive-carousel/lib/styles/carousel.min.css";
+
+/* Custom styles for the carousel */
+.carousel {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carousel .carousel-item {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.carousel .legend {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Customize arrow styles */
+.carousel .control-prev, .carousel .control-next {
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Center arrows vertically */
+.carousel .control-prev, .carousel .control-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Arrow hover styles */
+.carousel .control-prev:hover, .carousel .control-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Adjust arrow position */
+.carousel .control-prev {
+  left: 10px;
+}
+
+.carousel .control-next {
+  right: 10px;
+}

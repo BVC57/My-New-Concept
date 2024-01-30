@@ -1,0 +1,22 @@
+/* styles.css */
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 20px 0; */
+  }
+  
+  .gallery img {
+    width: 200px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 0 10px;
+    transition: transform 0.3s ease; /* Add a smooth transition effect on hover */
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    border-color: #007bff; /* Change border color on hover */
+  }
+  
